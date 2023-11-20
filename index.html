@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e520ead38a.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./imgs/logo.png" class="logo">
+            
+                 <ul id="sidemenu">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">CERTIFICATES</a></li>
+                    <li><a href="#portfolio">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+           </nav>
+           <div class="hear-text">
+                <h1>Hi, I'm <span>SOUPARNIKA</span></h1><br>
+                <h3></h3>
+           </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+
+                <div class="about-col-1">
+                    <img src="./imgs/me.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Looking for a challenging role in a reputable organization to utilize my technical and
+                        management skills for the growth of the organization as well as to enhance my
+                        knowledge about new and emerging trends .
+                        </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>Java</li>
+                            <li>Data Structures</li>
+                            <li>SQL</li>
+                            <li>HTML & CSS</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul> 
+                            <li><Span>COLLEGE (8.86%)</Span><br>VSB Engineering College</li>
+                            <li><Span>HSC (80.6%)</Span><br>Veveaham Higher Secondary School</li>
+                            <li><Span>SSLC (92.8%)</Span><br>Veveaham Higher Secondary School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">CERTIFICATES</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>INTENSHIP</h2>
+                    <p>Completed internship training on “WEB DEVELOPMENT” in  Brainery Spot Technology</p>
+                    <a href="https://drive.google.com/file/d/1sPpLCEq3JyS3zwWBdqi5_7jMVa6vesyl/view?usp=drive_link" target="_blank">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>JAVA</h2>
+                    <p>Certified in Java programming through NPTEL with a score of 82%</p>
+                    <a href="https://drive.google.com/file/d/1lgf9WP3fsiOaXktih2GHD3ryam_phDJ6/view?usp=drive_link" target="_blank">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>DBMS</h2>
+                    <p>Certified in Database Management System through infosys</p>
+                    <a href="https://drive.google.com/file/d/1pIS5-Nhoirg7hoxh8O83_UPPKh0J6f1k/view?usp=drive_link" target="_blank">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">PROJECTS</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./imgs/quote.png">
+                    <div class="layer">
+                        <h3>Quote App</h3>
+                        <p>A wed based application that fetches quote from API and display it along with author name</p>
+                        <a href="https://soupa2003.github.io/QuoteApp/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./imgs/todo.png">
+                    <div class="layer">
+                        <h3>TODO App</h3>
+                        <p>An application that allows to create and manage user daily activities</p>
+                        <a href="https://soupa2003.github.io/To-Do-List/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./imgs/pass.png">
+                    <div class="layer">
+                        <h3>Random Password Generator</h3>
+                        <p>This is used to generate random password</p>
+                        <a href="https://soupa2003.github.io/PasswordGenerator/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square" target="_blank"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/soupa2003?tab=repositories" target="_blank" class="btn">See more!!</a>
+        </div>
+    </div>
+ 
+    <div id="contact">
+        <div class="container">
+            <div class="row1">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>soupa2003@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/soupa2003" target="_blank"><i class="fa-brands fa-square-github"></i></i></a>
+                        <a href="https://www.linkedin.com/in/souparnika-c-s-3371a6211/" target="_blank"><i class="fa-brands fa-linkedin"></i></i></a>
+                        <a href="https://www.hackerrank.com/soupa2003?hr_r=1" target="_blank"><i class="fa-brands fa-hackerrank"></i></a>
+                    </div>
+                    <a href="SOUPARNIKA_resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright SOUPARNIKA. Made with <i class="fa-solid fa-heart"></i> by Souparnika</p>
+        </div>
+    </div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab"); 
+    }
+</script>
+</body>
+</html>
