@@ -280,20 +280,6 @@ nav ul li a:hover::after{
     display: inline-block;
     background: #ff004f;
 }
- 
- 
-.copyright{
-    width: 100%;
-    padding: 25px 0;
-    text-align: center;
-    background: #262626;
-    font-weight: 300;
-    margin-top: 20px;
-}
-.copyright i{
-    color: #ff004f;
-}
- 
 nav .fa-solid{
     display: none;
 }
@@ -349,9 +335,6 @@ nav .fa-solid{
     }
     .contact-left, .contact-right{
         flex-basis: 100%;
-    }
-    .copyright{
-        font-size: 14px;
     }
 }
 #msg{
